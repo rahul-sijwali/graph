@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: #f5eddc;
+  padding: 0;
+  overflow: hidden;
+}
+#root {
+  width: 25px;
+}
+#node_area {
+  position: absolute;
+  border: 1px solid black;
+  z-index: 7;
+  left: 2.5%;
+  width: 95%;
+}
+#text_box {
+  border: 1px solid black;
+  left: 30%;
+  width: 40%;
+  height: 20px;
+  position: absolute;
+  z-index: 3;
+}
+#edge_animation_area {
+  border: 1px solid rgb(241, 188, 53);
+  position: absolute;
+  z-index: 2;
+  left: 2.5%;
+  opacity: 0.8;
+  width: 95%;
+}
+#edge_area {
+  position: absolute;
+  z-index: 1;
+  left: 2.5%;
+  width: 95%;
+}
+
+.operations {
+  padding: 0;
+  position: relative;
+  top: 0.1%;
+  background-color: #cfd2cf;
+  font-size: 90%;
+  font-weight: bold;
+  margin: 0.3%;
+  border-radius: 7px;
+  border-color: #578c82;
+  transition: background-color 0.3s;
+}
+
+.operations:hover {
+  background-color: #0c7762;
+}
